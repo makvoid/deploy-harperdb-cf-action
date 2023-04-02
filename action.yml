@@ -13,6 +13,12 @@ inputs:
   project_name:
     description: 'Which project to deploy the Custom Functions to'
     required: true
+  cf_directory:
+    description: 'Which directory the Custom Functions are contained within'
+    required: true
+  reject_unauthorized_certs:
+    description: 'Whether or not to reject unauthorized certificates'
+    required: true
 runs:
   using: 'node16'
   main: 'dist/index.js'
