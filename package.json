@@ -14,7 +14,7 @@
     "HarperDB",
     "custom functions",
     "github actions",
-   "action"
+    "action"
   ],
   "author": "Michael King <@makvoid>",
   "license": "MIT",
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/makvoid/deploy-harperdb-cf-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1"
+    "@actions/github": "^5.1.1",
+    "@vercel/ncc": "^0.36.1"
   },
   "devDependencies": {
     "eslint": "^8.0.1",
