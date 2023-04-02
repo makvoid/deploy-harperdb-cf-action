@@ -1,4 +1,4 @@
-# deploy-harperdb-cf-action
+# HarperDB Custom Functions Deployment Action
 GitHub Action to deploy a HarperDB Custom Functions package to an active and public HarperDB Instance. This Action works on HarperDB Cloud Instances, as well as self-hosted Instances as long as they are publicly accessible.
 
 If you would like to see a sample repository using this action, please check out [this repository](https://github.com/makvoid/deploy-harperdb-cf-action-sample).
