@@ -1,0 +1,18 @@
+name: 'HarperDB Custom Functions Deployment Action'
+description: 'Deploys the latest version of a Custom Functions package to a HarperDB Host'
+inputs:
+  admin_username:
+    description: 'HarperDB Admin Username'
+    required: true
+  admin_password:
+    description: 'HarperDB Admin Password'
+    required: true
+  hdb_endpoint:
+    description: 'Where to deploy the Custom Functions to'
+    required: true
+  project_name:
+    description: 'Which project to deploy the Custom Functions to'
+    required: true
+runs:
+  using: 'node18'
+  main: 'index.js'
